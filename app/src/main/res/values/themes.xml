@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FanPassVFinal" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_normal</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="BottomNavigation">
+        <item name="android:background">@color/green_dark</item>
+        <item name="itemIconTint">@color/green_light_2</item>
+        <item name="itemTextColor">@color/green_light_2</item>
+    </style>
+
+    <style name="Theme.FanPassVFinal" parent="Base.Theme.FanPassVFinal" />
+</resources>
